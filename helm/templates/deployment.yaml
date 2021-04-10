@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: authsample-charts
+  name: authsample-charts
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: authsample-charts
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: authsample-charts
+    spec:
+      containers:
+      - image: mtbirla/authorizationsample:latest
+        name: authorizationsample
+        resources: {}
+status: {}

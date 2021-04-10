@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: authsample-charts
+  name: authsample-charts
+spec:
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: authsample-charts
+status:
+  loadBalancer: {}
