@@ -3,12 +3,12 @@ entries:
   authsample-charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-10T17:40:42.2692263+05:30"
+    created: "2021-04-10T18:00:11.0504697+05:30"
     description: A Helm chart for Kubernetes
-    digest: 1d3b178f01c933b04e984b00b13b4ddfbbfdefc4dd44a228def8851b53252b05
+    digest: 94a1bf62df4455c0e3c7defe0e06ab75d98525ebb81f74e70a404ca203c9b635
     name: authsample-charts
     type: application
     urls:
     - authsample-charts-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-10T17:40:42.2652431+05:30"
+generated: "2021-04-10T18:00:11.0494902+05:30"
